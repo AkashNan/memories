@@ -1,0 +1,25 @@
+body{
+    position: relative;
+    background-image: url("bg.jpg");  
+    background-size: cover;  
+    background-position: center;  
+    text-align: center;  
+    color: white;  
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  
